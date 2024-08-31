@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+		<Version>7.1.0</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Title>Net.Android.AppMetrica.Analytics.AnalyticsLogger</Title>
+		<Description>Binding io.appmetrica.analytics.analytics-logger .net android</Description>
+		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
+		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-logger 7.1.0</PackageReleaseNotes>
+		<Authors>$(AssemblyName)</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\analytics-logger-7.1.0.aar" />
+  </ItemGroup>
+</Project>
