@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidSample", "AndroidSample\AndroidSample.csproj", "{7698C50C-E4BD-42E9-B899-A53361736E31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B3711E8-2620-4213-B5B2-CB12C141BA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics", "src\Net.Android.AppMetrica.Analytics\Net.Android.AppMetrica.Analytics.csproj", "{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7698C50C-E4BD-42E9-B899-A53361736E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7698C50C-E4BD-42E9-B899-A53361736E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7698C50C-E4BD-42E9-B899-A53361736E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7698C50C-E4BD-42E9-B899-A53361736E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+	EndGlobalSection
+EndGlobal
