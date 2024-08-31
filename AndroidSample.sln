@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B3711E8-262
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics", "src\Net.Android.AppMetrica.Analytics\Net.Android.AppMetrica.Analytics.csproj", "{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.CoreUtils", "src\Net.Android.AppMetrica.CoreUtils\Net.Android.AppMetrica.CoreUtils.csproj", "{FB001641-5353-436C-9DA4-9E4151F4AE8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.CoreUtils", "src\Net.Android.AppMetrica.CoreUtils\Net.Android.AppMetrica.Analytics.CoreUtils.csproj", "{FB001641-5353-436C-9DA4-9E4151F4AE8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

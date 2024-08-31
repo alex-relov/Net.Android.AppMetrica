@@ -24,6 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net.Android.AppMetrica.CoreUtils\Net.Android.AppMetrica.CoreUtils.csproj" />
+    <ProjectReference Include="../Net.Android.AppMetrica.CoreUtils/Net.Android.AppMetrica.Analytics.CoreUtils.csproj" />
   </ItemGroup>
 </Project>
