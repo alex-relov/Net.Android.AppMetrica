@@ -6,18 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 		<Version>7.1.0</Version>
-		<Title>Net.Android.AppMetrica.Analytics.AnalyticsLogger</Title>
-		<Description>Binding io.appmetrica.analytics.analytics-logger .net android</Description>
+		<Title>Net.Android.AppMetrica.Analytics.AnalyticsCommonLogger</Title>
+		<Description>Binding io.appmetrica.analytics.analytics-common-logger .net android</Description>
 		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
 		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
-		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-logger 7.1.0</PackageReleaseNotes>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-common-logger 7.1.0</PackageReleaseNotes>
 		<Authors>$(AssemblyName)</Authors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\analytics-logger-7.1.0.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CommonLogger\Net.Android.AppMetrica.Analytics.CommonLogger.csproj" />
+    <LibraryProjectZip Include="Jars\analytics-common-logger-7.1.0.aar" />
   </ItemGroup>
 </Project>
