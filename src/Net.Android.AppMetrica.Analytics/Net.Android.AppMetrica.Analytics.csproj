@@ -26,5 +26,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Logger\Net.Android.AppMetrica.Analytics.Logger.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CoreUtils\Net.Android.AppMetrica.Analytics.CoreUtils.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CoreApi\Net.Android.AppMetrica.Analytics.CoreApi.csproj" />
   </ItemGroup>
 </Project>
