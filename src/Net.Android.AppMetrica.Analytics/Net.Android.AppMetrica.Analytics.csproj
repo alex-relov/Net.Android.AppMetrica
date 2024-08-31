@@ -4,5 +4,22 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+		<Version>7.1.0</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Title>Net.Android.AppMetrica.Analytics</Title>
+		<Description>Binding io.appmetrica.analytics .net android</Description>
+		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
+		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics 7.1.0</PackageReleaseNotes>
+		<Authors>$(AssemblyName)</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+  <ItemGroup>
+		<LibraryProjectZip Include="Jars\analytics-7.1.0.aar" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Net.Android.Installreferrer" Version="2.2.0" />
+  </ItemGroup>
 </Project>
