@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Anal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.CommonLogger", "src\Net.Android.AppMetrica.Analytics.CommonLogger\Net.Android.AppMetrica.Analytics.CommonLogger.csproj", "{E34B10CF-A0B8-481D-9103-B197225ABC4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Proto", "src\Net.Android.AppMetrica.Analytics.Proto\Net.Android.AppMetrica.Analytics.Proto.csproj", "{F6E3B18D-285E-451E-A15B-7507392D5BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.ModulesApi", "src\Net.Android.AppMetrica.Analytics.ModulesApi\Net.Android.AppMetrica.Analytics.ModulesApi.csproj", "{2D2805E6-3788-46C4-B82A-97DCBBE5D36C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{E34B10CF-A0B8-481D-9103-B197225ABC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E34B10CF-A0B8-481D-9103-B197225ABC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E34B10CF-A0B8-481D-9103-B197225ABC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E3B18D-285E-451E-A15B-7507392D5BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E3B18D-285E-451E-A15B-7507392D5BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E3B18D-285E-451E-A15B-7507392D5BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E3B18D-285E-451E-A15B-7507392D5BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2805E6-3788-46C4-B82A-97DCBBE5D36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2805E6-3788-46C4-B82A-97DCBBE5D36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2805E6-3788-46C4-B82A-97DCBBE5D36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2805E6-3788-46C4-B82A-97DCBBE5D36C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +69,7 @@ Global
 		{CF74FD15-81E0-4A75-8D30-62F22A962E07} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{2ADAD30B-E087-492D-B762-CB0CC32F0539} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{E34B10CF-A0B8-481D-9103-B197225ABC4B} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{F6E3B18D-285E-451E-A15B-7507392D5BA7} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{2D2805E6-3788-46C4-B82A-97DCBBE5D36C} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 	EndGlobalSection
 EndGlobal

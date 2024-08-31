@@ -6,19 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 		<Version>7.1.0</Version>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Title>Net.Android.AppMetrica.Analytics.CoreApi</Title>
-		<Description>Binding io.appmetrica.analytics.core-api .net android</Description>
+		<Title>Net.Android.AppMetrica.Analytics.AnalyticsProto</Title>
+		<Description>Binding io.appmetrica.analytics.analytics-proto .net android</Description>
 		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
 		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
-		<PackageReleaseNotes>binding for io.appmetrica.analytics.core-api 7.1.0</PackageReleaseNotes>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-proto 7.1.0</PackageReleaseNotes>
 		<Authors>$(AssemblyName)</Authors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-	<ItemGroup>
-		<LibraryProjectZip Include="Jars\analytics-core-api-7.1.0.aar" />
-	</ItemGroup>
-	<ItemGroup>
-	  <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Proto\Net.Android.AppMetrica.Analytics.Proto.csproj" />
-	</ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\analytics-proto-7.1.0.aar" />
+  </ItemGroup>
 </Project>
