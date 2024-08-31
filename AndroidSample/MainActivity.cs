@@ -1,3 +1,5 @@
+using IO.Appmetrica.Analytics;
+
 namespace AndroidSample;
 
 [Activity(Label = "@string/app_name", MainLauncher = true)]
@@ -7,7 +9,10 @@ public class MainActivity : Activity
     {
         base.OnCreate(savedInstanceState);
 
-        // Set our view from the "main" layout resource
+           var config = AppMetricaConfig.NewConfigBuilder("")
+            .Build();
+        AppMetrica.Activate(this, config);
+        
         SetContentView(Resource.Layout.activity_main);
     }
 }

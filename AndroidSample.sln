@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B3711E8-262
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics", "src\Net.Android.AppMetrica.Analytics\Net.Android.AppMetrica.Analytics.csproj", "{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.CoreUtils", "src\Net.Android.AppMetrica.CoreUtils\Net.Android.AppMetrica.CoreUtils.csproj", "{FB001641-5353-436C-9DA4-9E4151F4AE8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB001641-5353-436C-9DA4-9E4151F4AE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB001641-5353-436C-9DA4-9E4151F4AE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB001641-5353-436C-9DA4-9E4151F4AE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB001641-5353-436C-9DA4-9E4151F4AE8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EA7543E2-03AE-4B60-A4AF-04F3305AEFC0} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{FB001641-5353-436C-9DA4-9E4151F4AE8F} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 	EndGlobalSection
 EndGlobal

@@ -7,23 +7,15 @@
     <Nullable>enable</Nullable>
 		<Version>7.1.0</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Title>Net.Android.AppMetrica.Analytics</Title>
-		<Description>Binding io.appmetrica.analytics .net android</Description>
+		<Title>Net.Android.AppMetrica.Analytics.CoreUtils</Title>
+		<Description>Binding io.appmetrica.analytics.core-utils .net android</Description>
 		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
 		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
-		<PackageReleaseNotes>binding for io.appmetrica.analytics 7.1.0</PackageReleaseNotes>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics.core-utils 7.1.0</PackageReleaseNotes>
 		<Authors>$(AssemblyName)</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-		<LibraryProjectZip Include="Jars\analytics-7.1.0.aar" />
+		<LibraryProjectZip Include="Jars\analytics-core-utils-7.1.0.aar" />
 	</ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Net.Android.Installreferrer" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Net.Android.AppMetrica.CoreUtils\Net.Android.AppMetrica.CoreUtils.csproj" />
-  </ItemGroup>
 </Project>
