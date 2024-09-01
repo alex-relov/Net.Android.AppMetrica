@@ -29,5 +29,6 @@
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CoreUtils\Net.Android.AppMetrica.Analytics.CoreUtils.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CoreApi\Net.Android.AppMetrica.Analytics.CoreApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.ModulesApi\Net.Android.AppMetrica.Analytics.ModulesApi.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NdkCrashesApi\Net.Android.AppMetrica.Analytics.NdkCrashesApi.csproj" />
   </ItemGroup>
 </Project>

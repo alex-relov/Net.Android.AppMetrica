@@ -8,11 +8,15 @@ public class MainActivity : Activity
     protected override void OnCreate(Bundle? savedInstanceState)
     {
         base.OnCreate(savedInstanceState);
-
-           var config = AppMetricaConfig.NewConfigBuilder("")
-            .Build();
-        AppMetrica.Activate(this, config);
-        
         SetContentView(Resource.Layout.activity_main);
+
+        var config = AppMetricaConfig
+            .NewConfigBuilder("")
+            .WithCrashReporting(true)
+            .WithLogs()
+            .WithNativeCrashReporting(true).Build();
+        AppMetrica.Activate(this, config);
+        AppMetrica.ReportEvent("event");
+        AppMetrica.SendEventsBuffer();
     }
 }
