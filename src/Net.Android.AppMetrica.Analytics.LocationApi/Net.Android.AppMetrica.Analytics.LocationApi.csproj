@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>7.1.0</Version>
+		<Title>Net.Android.AppMetrica.Analytics.LocationApi</Title>
+		<Description>Binding io.appmetrica.analytics.analytics-location-api .net android</Description>
+		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alex-relov/Net.Android.AppMetrica</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
+		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-location-api 7.1.0</PackageReleaseNotes>
+		<Authors>$(AssemblyName)</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\analytics-location-api-7.1.0.aar" />
+  </ItemGroup>
+</Project>

@@ -37,5 +37,7 @@
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.ModulesApi\Net.Android.AppMetrica.Analytics.ModulesApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NdkCrashesApi\Net.Android.AppMetrica.Analytics.NdkCrashesApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NetworkTask\Net.Android.AppMetrica.Analytics.NetworkTask.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.LocationApi\Net.Android.AppMetrica.Analytics.LocationApi.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Location\Net.Android.AppMetrica.Analytics.Location.csproj" />
   </ItemGroup>
 </Project>

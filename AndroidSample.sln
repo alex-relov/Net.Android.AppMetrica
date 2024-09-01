@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Anal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Network", "src\Net.Android.AppMetrica.Analytics.Network\Net.Android.AppMetrica.Analytics.Network.csproj", "{CA00F3FD-2323-41A0-B4E7-0C60C2AF62F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.LocationApi", "src\Net.Android.AppMetrica.Analytics.LocationApi\Net.Android.AppMetrica.Analytics.LocationApi.csproj", "{DC202E26-F983-4D78-9EB4-5C721B56572D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.GplLibrary", "src\Net.Android.AppMetrica.Analytics.GplLibrary\Net.Android.AppMetrica.Analytics.GplLibrary.csproj", "{66BBA3A0-C5C3-414A-AE72-429AEBB17B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Location", "src\Net.Android.AppMetrica.Analytics.Location\Net.Android.AppMetrica.Analytics.Location.csproj", "{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +83,18 @@ Global
 		{CA00F3FD-2323-41A0-B4E7-0C60C2AF62F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA00F3FD-2323-41A0-B4E7-0C60C2AF62F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA00F3FD-2323-41A0-B4E7-0C60C2AF62F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC202E26-F983-4D78-9EB4-5C721B56572D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC202E26-F983-4D78-9EB4-5C721B56572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC202E26-F983-4D78-9EB4-5C721B56572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC202E26-F983-4D78-9EB4-5C721B56572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +110,8 @@ Global
 		{17F27FC6-B831-44FE-BDD8-72DA439CFB4C} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{B62D60DD-D97D-4BF0-8E60-9A8256FE99E3} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{CA00F3FD-2323-41A0-B4E7-0C60C2AF62F2} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{DC202E26-F983-4D78-9EB4-5C721B56572D} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 	EndGlobalSection
 EndGlobal
