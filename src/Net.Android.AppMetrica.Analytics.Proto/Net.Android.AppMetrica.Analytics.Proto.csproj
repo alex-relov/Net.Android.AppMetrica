@@ -5,15 +5,24 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<Version>7.1.0</Version>
-		<Title>Net.Android.AppMetrica.Analytics.AnalyticsProto</Title>
-		<Description>Binding io.appmetrica.analytics.analytics-proto .net android</Description>
-		<PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
-		<PackageTags>appmetrica;analytics;yandex;android</PackageTags>
-		<PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-proto 7.1.0</PackageReleaseNotes>
-		<Authors>$(AssemblyName)</Authors>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>7.1.0</Version>
+    <Title>Net.Android.AppMetrica.Analytics.AnalyticsProto</Title>
+    <Description>Binding io.appmetrica.analytics.analytics-proto .net android</Description>
+    <PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alex-relov/Net.Android.AppMetrica</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>appmetrica;analytics;yandex;android</PackageTags>
+    <PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-proto 7.1.0</PackageReleaseNotes>
+    <Authors>$(AssemblyName)</Authors>
+    <PackageIcon>logo.jpg</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\analytics-proto-7.1.0.aar" />
   </ItemGroup>
