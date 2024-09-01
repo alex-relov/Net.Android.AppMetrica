@@ -42,5 +42,6 @@
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.RemotePermissions\Net.Android.AppMetrica.Analytics.RemotePermissions.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.AppSetId\Net.Android.AppMetrica.Analytics.AppSetId.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Identifiers\Net.Android.AppMetrica.Analytics.Identifiers.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.BillingV6\Net.Android.AppMetrica.Analytics.BillingV6.csproj" />
   </ItemGroup>
 </Project>

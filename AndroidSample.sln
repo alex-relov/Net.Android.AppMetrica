@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Anal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Identifiers", "src\Net.Android.AppMetrica.Analytics.Identifiers\Net.Android.AppMetrica.Analytics.Identifiers.csproj", "{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.BillingInterface", "src\Net.Android.AppMetrica.Analytics.BillingInterface\Net.Android.AppMetrica.Analytics.BillingInterface.csproj", "{1C2493F6-83BA-47FF-9EDB-B617107C5C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.BillingV6", "src\Net.Android.AppMetrica.Analytics.BillingV6\Net.Android.AppMetrica.Analytics.BillingV6.csproj", "{CBEF8F34-50C4-4765-96EB-4BE26B0773F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,14 @@ Global
 		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2493F6-83BA-47FF-9EDB-B617107C5C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2493F6-83BA-47FF-9EDB-B617107C5C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2493F6-83BA-47FF-9EDB-B617107C5C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2493F6-83BA-47FF-9EDB-B617107C5C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEF8F34-50C4-4765-96EB-4BE26B0773F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEF8F34-50C4-4765-96EB-4BE26B0773F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEF8F34-50C4-4765-96EB-4BE26B0773F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEF8F34-50C4-4765-96EB-4BE26B0773F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,5 +146,7 @@ Global
 		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{892098F9-942D-4AFD-BFA8-369AE858B9D3} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{1C2493F6-83BA-47FF-9EDB-B617107C5C93} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{CBEF8F34-50C4-4765-96EB-4BE26B0773F4} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 	EndGlobalSection
 EndGlobal

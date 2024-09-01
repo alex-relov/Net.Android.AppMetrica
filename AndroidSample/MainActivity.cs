@@ -14,7 +14,8 @@ public class MainActivity : Activity
             .NewConfigBuilder("")
             .WithCrashReporting(true)
             .WithLogs()
-            .WithNativeCrashReporting(true).Build();
+            .WithNativeCrashReporting(true)
+            .Build();
         AppMetrica.Activate(this, config);
         AppMetrica.ReportEvent("event");
         AppMetrica.SendEventsBuffer();
