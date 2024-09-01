@@ -1,17 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0-android</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Version>7.1.0</Version>
-    <Title>Net.Android.AppMetrica.Analytics.AnalyticsNdkCrashesApi</Title>
-    <Description>Binding io.appmetrica.analytics.analytics-ndkcrashes-api .net android</Description>
+    <Title>Net.Android.AppMetrica.Analytics.AnalyticsNetwork</Title>
+    <Description>Binding io.appmetrica.analytics.analytics-network .net android</Description>
     <PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alex-relov/Net.Android.AppMetrica</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>appmetrica;analytics;yandex;android</PackageTags>
-    <PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-ndkcrashes-api 7.1.0</PackageReleaseNotes>
+    <PackageReleaseNotes>binding for io.appmetrica.analytics.analytics-network 7.1.0</PackageReleaseNotes>
     <Authors>$(AssemblyName)</Authors>
+    <PackageIcon>logo.jpg</PackageIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
@@ -21,6 +23,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\analytics-ndkcrashes-api-7.1.0.aar" />
+    <LibraryProjectZip Include="Jars\analytics-network-7.1.0.aar" />
   </ItemGroup>
 </Project>

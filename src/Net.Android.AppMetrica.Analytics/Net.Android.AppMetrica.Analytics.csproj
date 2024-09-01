@@ -2,7 +2,6 @@
   <PropertyGroup>
     <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 		<Version>7.1.0</Version>
@@ -37,5 +36,6 @@
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.CoreApi\Net.Android.AppMetrica.Analytics.CoreApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.ModulesApi\Net.Android.AppMetrica.Analytics.ModulesApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NdkCrashesApi\Net.Android.AppMetrica.Analytics.NdkCrashesApi.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NetworkTask\Net.Android.AppMetrica.Analytics.NetworkTask.csproj" />
   </ItemGroup>
 </Project>
