@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>7.1.0</Version>
+    <Title>Net.Android.AppMetrica.Analytics.Identifiers</Title>
+    <Description>Binding io.appmetrica.analytics.identifiers .net android</Description>
+    <PackageProjectUrl>https://github.com/alex-relov</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alex-relov/Net.Android.AppMetrica</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>appmetrica;analytics;yandex;android</PackageTags>
+    <PackageReleaseNotes>binding for io.appmetrica.analytics.identifiers 7.1.0</PackageReleaseNotes>
+    <Authors>$(AssemblyName)</Authors>
+    <PackageIcon>logo.jpg</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\analytics-identifiers-7.1.0.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.GooglePlayServices.Ads.Identifier" Version="118.1.0.1" />
+  </ItemGroup>
+</Project>

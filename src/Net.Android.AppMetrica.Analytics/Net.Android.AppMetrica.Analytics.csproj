@@ -39,5 +39,8 @@
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.NetworkTask\Net.Android.AppMetrica.Analytics.NetworkTask.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.LocationApi\Net.Android.AppMetrica.Analytics.LocationApi.csproj" />
     <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Location\Net.Android.AppMetrica.Analytics.Location.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.RemotePermissions\Net.Android.AppMetrica.Analytics.RemotePermissions.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.AppSetId\Net.Android.AppMetrica.Analytics.AppSetId.csproj" />
+    <ProjectReference Include="..\Net.Android.AppMetrica.Analytics.Identifiers\Net.Android.AppMetrica.Analytics.Identifiers.csproj" />
   </ItemGroup>
 </Project>

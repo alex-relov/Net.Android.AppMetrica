@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Anal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Location", "src\Net.Android.AppMetrica.Analytics.Location\Net.Android.AppMetrica.Analytics.Location.csproj", "{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.RemotePermissions", "src\Net.Android.AppMetrica.Analytics.RemotePermissions\Net.Android.AppMetrica.Analytics.RemotePermissions.csproj", "{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.AppSetId", "src\Net.Android.AppMetrica.Analytics.AppSetId\Net.Android.AppMetrica.Analytics.AppSetId.csproj", "{892098F9-942D-4AFD-BFA8-369AE858B9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Android.AppMetrica.Analytics.Identifiers", "src\Net.Android.AppMetrica.Analytics.Identifiers\Net.Android.AppMetrica.Analytics.Identifiers.csproj", "{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +101,18 @@ Global
 		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892098F9-942D-4AFD-BFA8-369AE858B9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892098F9-942D-4AFD-BFA8-369AE858B9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892098F9-942D-4AFD-BFA8-369AE858B9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892098F9-942D-4AFD-BFA8-369AE858B9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,5 +131,8 @@ Global
 		{DC202E26-F983-4D78-9EB4-5C721B56572D} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{66BBA3A0-C5C3-414A-AE72-429AEBB17B78} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 		{246A2652-9E3D-4F16-BC2B-5A1A818E87F7} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{FEAC3792-1FEB-4D3A-BA1D-60DA6139FA3D} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{892098F9-942D-4AFD-BFA8-369AE858B9D3} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
+		{32F1FD6E-E46B-48EB-98DF-8DC515868CF5} = {3B3711E8-2620-4213-B5B2-CB12C141BA71}
 	EndGlobalSection
 EndGlobal
